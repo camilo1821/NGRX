@@ -1,0 +1,45 @@
+<!-- src/app/components/agendar-citas/agendar-citas.component.html -->
+<form [formGroup]="citaForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label for="id">Id:</label>
+    <input id="id" formControlName="id" type="number" />
+  </div>
+
+    <div>
+      <label for="fecha">Fecha:</label>
+      <input id="fecha" formControlName="fecha" type="date" />
+    </div>
+    
+    <div>
+      <label for="hora">Hora:</label>
+      <input id="hora" formControlName="hora" type="time" />
+    </div>
+    
+    <div>
+      <label for="paciente">Paciente:</label>
+      <input id="paciente" formControlName="paciente" type="text" />
+    </div>
+    
+    <div>
+      <label for="odontologo">Odontólogo:</label>
+      <input id="odontologo" formControlName="odontologo" type="text" />
+    </div>
+    
+    <button type="submit" [disabled]="citaForm.invalid">Agendar Cita</button>
+  </form>
+  
+  <!-- src/app/app.component.html -->
+<!-- <app-mis-citas></app-mis-citas>
+
+<! <section >
+  <input #idInput type="text" placeholder="id">
+  <input #fechaInput type="text" placeholder="fecha">
+  <input #horaInput type="text" placeholder="hora">
+  <input #pacienteInput type="text" placeholder="paciente">
+  <input #odontologoInput type="text" placeholder="odontologo">
+  <input #estadoInput type="text" placeholder="estado">
+  <button type="submit" (click)="addCita(idInput.valueAsNumber, fechaInput.value, horaInput.value, pacienteInput.value, odontologoInput.value, estadoInput.value)">Agregar Cita</button>
+</section>
+
+
+<app-mis-citas></app-mis-citas> -->

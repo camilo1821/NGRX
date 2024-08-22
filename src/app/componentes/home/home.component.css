@@ -1,0 +1,131 @@
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1250px;
+    }
+}
+
+
+#carousel2 {
+    border-radius: 15px;
+    border: solid 1px;
+    max-width: 50%;
+    max-width: 56%;
+    color: cornsilk;
+    margin-left: auto;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+    margin: auto;
+    border: 8px;
+    border-radius: 19px;
+}
+
+#videoprueba {
+    max-width: 39%;
+    font-size: 13px;
+    font-style: italic;
+    font-family: system-ui;
+    padding-top: 30px;
+}
+
+#carousel2[_ngcontent-ng-c1531280728] {
+    border-radius: 15px;
+    border: solid 1px;
+    color: rgb(19, 18, 18);
+    width: 63%;
+    margin-left: 21%;
+    position: relative;
+    display: ruby-text;
+    align-items: center;
+}
+
+.carousel-inner[_ngcontent-ng-c1531280728] {
+    max-width: 95%;
+    font-size: 13px;
+    font-style: italic;
+    font-family: system-ui;
+    padding-top: 30px;
+}
+
+
+#videoprueba[_ngcontent-ng-c1531280728] {
+    max-width: 95%;
+    font-size: 13px;
+    font-style: italic;
+    font-family: system-ui;
+    padding-top: 30px;
+}
+
+iframe {
+    width: -webkit-fill-available;
+    border: solid 2px black;
+}
+
+div#carouselExampleCaptions {
+    padding-bottom: 30px;
+}
+
+#infGeneral {
+    background: #e9e6d0;
+    margin: 20px;
+    border-radius: 3px;
+    font-size: smaller;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* .shadow { 
+    width: 500px; 
+    height: 40px;
+    border-radius: 50%;
+    background: radial-gradient (#805d78, gba(0, 0, 0, 0) 70%);
+}
+
+.clipped-border {
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    padding: 5px;
+    background: linear-gradient(grey, lightgrey);
+    max-height: 250px; 
+    max-width: 250px; 
+    height: var(--height); 
+    width: var(--width);
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.clipped-border:before {
+    content: "";
+    opacity: 0.5; 
+    width: 350px; 
+    height: 70px;
+    background: white;
+    transform: rotate(45deg); 
+    transition: transform 0.5s;
+}
+
+.clipped-border:nth-child(2) { 
+    top: 196px; 
+    left: 118px;
+}
+
+.clipped-border:nth-child(3) {
+    top: 0; 
+    left: 235px;
+}
+
+.clipped-border:nth-child(4) {
+    top: 196px;
+    Left: 353px;
+}
+
+
+.clipped-border:nth-child(5) { 
+    top: 0;
+    left: 470px;
+}
+ */

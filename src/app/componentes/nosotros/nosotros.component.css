@@ -1,0 +1,110 @@
+
+/* es una fuente obtenida de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Es la regla de la fuente obtenida, la seteamos en la etiqueta body*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-color:whitesmoke;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    margin: 30px;
+    width: 80%;
+}
+
+#misionyvision {
+    margin-left: 13%;
+    width: 70%;
+    border-radius: 20px;
+}
+
+#misionyvision[_ngcontent-ng-c4271061551] {
+    margin-left: 17%;
+    width: 35%;
+    border-radius: 20px;
+    margin-left: 31%;
+}
+
+#valores {
+    display: ruby;
+    height: 484px;
+    font-size: 15px;
+    text-align: justify;
+    padding-bottom: 50px;
+    position:unset;
+}
+
+
+.card-title {
+    margin-bottom: .75rem;
+    font-style: oblique;
+}
+
+#quienes\ somos {
+    width: fit-content;
+    margin-left: auto;
+    padding-bottom: 10px;
+}
+
+#PHespecialistas:hover{
+    cursor: pointer;
+    background: whitesmoke;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.card-img, .card-img-bottom {
+    padding: 17px;
+    border-radius: 45px;
+}
+
+.card-img, .card-img-top {
+    padding: 17px;
+    border-radius: 45px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    background: beige;
+    border-radius: 25px;
+    border: solid rgb(220, 183, 60) 1px;
+}
+
+.card-body:hover {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+
+
+#misionyvision[_ngcontent-ng-c2836227652] {
+    margin-left: 24%;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.card-body[_ngcontent-ng-c2836227652] {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.25rem;
+    background: beige;
+    padding: 23px;
+    border-radius: 26px;
+}

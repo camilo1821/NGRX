@@ -1,0 +1,59 @@
+
+div#Mis-Datos-C {
+  margin-left: 5px;
+    border: solid 1px;
+    border-radius: 12px;
+    padding: 12px;
+    margin-left: 10px;
+    color: #9d882d;
+  }
+
+
+.ventana {
+  position: absolute;
+  margin-left: 215px;
+  border-radius: 1px;
+  overflow-x: auto;
+  border: solid 0px;
+  background: #f5f5e8;
+  width:calc(100% - 220px);
+  /* font-size: initial;
+  font-style: oblique;
+  text-align: justify; */
+}
+
+button#confirmarCita {
+  margin-left: 4px;
+  background: #b59d3e;
+  color: #faf9f9;
+  border: solid 3px #b7a906;
+}
+
+
+button#confirmarCita:hover {
+  background: #fafaf9;
+  color:black;
+  font-size: 14px;
+}
+/* .titulo {
+  background: #cbb762;
+  color: white;
+  height: 38px;
+  font-weight: 500;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 19px;
+  width: 95%;
+  margin-left: 8px;
+  font-size: 27px;
+  text-align: end;
+  padding-right: 16px;
+}
+.datos.col-lg-9.col-md-8.col-sm-12 {
+padding-left: 20%;
+} */
+
+element.style {
+  font-size: 10px;
+  color: red;
+}

@@ -1,0 +1,229 @@
+
+/* es una fuente obtenida de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Es la regla de la fuente obtenida, la seteamos en la etiqueta body*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* es una fuente obtenida de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Es la regla de la fuente obtenida, la seteamos en la etiqueta body*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* 
+#FormularioCitas {
+    padding-bottom: 10px;
+    padding-top: 44px;
+    border: solid 1px;
+    border-color: antiquewhite;
+    background: beige;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 14px;
+    height: 287px;
+} */
+
+
+.form-group.col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12 { /*Definmos estilos a la descripcion antes del formulario de citas*/
+    margin: auto;
+    text-align: justify;
+    padding-top: 50px;
+    font-size: 16px;
+}
+
+
+.h1, h1 { /*Definmos estilos especificos al h1 titular antes del formulario de citas (Se efectúa correcciones)*/
+    text-align: center;
+    background: darkkhaki;
+    color: ghostwhite;
+    margin: auto;
+    padding-bottom: 3px;
+    border-radius: 12px;
+    font-size: 24px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+
+
+.form-check { /*Definimos algunos estilos para los terminos y condiciones*/
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+    width: 100%px;
+    text-align: -webkit-match-parent;
+    font-size: 12px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+}
+
+.form-check:hover { /*Definimos animacion hover para los terminos y condiciones*/
+    background: rgb(240, 232, 175);
+    color: rgb(12, 12, 7);
+    border-radius: 10px;
+    width: 100%;
+}
+
+button.btnAgendarCita {
+    border: 0px;
+    background: #977744;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+  }
+
+  button.btnAgendarCita:hover{
+    background: #efefed;
+    color: rgb(136, 101, 14);
+    font-size: 12px;
+  }
+ 
+
+
+
+button.btn.btn-outline-success.my-2.my-sm-0 { /* definimos estilos a los botones: enviar, suscribirme */
+    color: white;
+    border-color: aliceblue;
+    background: #996410;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+button.btn.btn-outline-success.my-2.my-sm-0:hover{ /* definimos hover a los botones: enviar, suscribirme */
+  background: yellow;
+  color: black;
+}
+
+/* definimos estilos al contenido del PREfooter en general */
+.footerSedes {
+    font-size: 13px;
+    font-weight: 700;
+    color: aliceblue;
+    background: #7d6917;
+    width: 52px;
+    height: 20px;
+    text-align: center;
+    border-radius: 9px;
+}
+
+.footerTelefonos {
+    font-size: 13px;
+    font-weight: 700;
+    color: aliceblue;
+    background: #7d6917;
+    width: 70px;
+    height: 24px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 9px;
+}
+
+.footerHorarios {
+    font-size: 13px;
+    font-weight: 700;
+    color: aliceblue;
+    background: #7d6917;
+    width: 61px;
+    height: 21px;
+    text-align: center;
+    border-radius: 9px;
+}
+
+h6 {
+    font-size: 1rem;
+    color: mintcream;
+    font-weight: 700;
+    padding-top: 9px;
+    margin-bottom: 0.5rem;
+    line-height: 4px;
+}
+
+#LogoSite { /*estilos a la imagen principal*/
+    width: 14%;
+    margin-left: 500px;
+}
+
+
+/* Definimos estilos a los iconos de las redes sociales*/
+
+img#imgInstagram {
+    text-align: center;
+    border-style: none;
+    width: 20px;
+}
+
+img#imgWhatsApp {
+    text-align: center;
+    border-style: none;
+    width: 21px;
+}
+
+#rsociales {
+    background: whitesmoke;
+    color: burlywood;
+    font-size: x-small;
+    align-self: center;
+}
+
+
+/* Footer, es un dato adicional que aprendí y deseo anexarlo como mi firma al pie del sitio */
+
+#footer { /* damos algunos estilos al footer */
+    background: #c6b379; /* Fondo */
+    font-size: 13px; /* Tamaño */
+    padding-top: 15px;
+    padding-bottom: 11px;
+}
+
+
+#footer.row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: auto;
+}
+
+footer {
+    /* text-align:center; */
+    background-color: #d9d9da00;
+    color: #222121;
+    font-size: 12px;
+    margin: 3px;
+    width: 60%;
+    margin-left: 2%;
+    height: 13px;
+    padding-bottom: 8px;
+    font-style: oblique;
+}
+
+#HechoPor{
+    font-weight: 700;
+    text-align: center;
+    list-style: none;   
+    text-decoration: none;
+    color: #691919;
+    padding-bottom: 6px;
+}
+
+#HechoPor:hover{
+    background: rgb(255, 255, 16);
+    color: black;
+    -webkit-box-shadow: 19px -16px 110px -34px rgba(31,31,31,0.96);
+    -moz-box-shadow: 19px -16px 110px -34px rgba(31,31,31,0.96);
+    box-shadow: 19px -16px 110px -34px rgba(31,31,31,0.96);
+}
+
+div#boton1Contactanos {
+    padding-left: 25px;
+    padding-top: 34px;
+}
+

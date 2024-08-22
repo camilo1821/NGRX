@@ -1,0 +1,142 @@
+<app-menu-dashboard></app-menu-dashboard>
+
+<div class="ventana">
+  <div class="titulo">Mis Datos</div>
+      <div id="Mis-Datos-C" class="col-sm-12 col-md-5 ">
+        <div id="">
+          <div class="form-row" (click)="EditarId(_id)">
+
+            <div class="form-group col-md-6">
+              <label for="inputNombre">Usuario:</label>
+              <input name="usuario" type="text" class="form-control" id="usuario" [(ngModel)]="usuario" [readOnly]="true">
+            </div>
+
+            <!-- <div class="form-group col-md-6">
+              <label for="inputApellido">Clave:</label>
+              <input  name="password" type="text" class="form-control" id="usuario" [(ngModel)]="clave" [readOnly]="true">
+            </div> -->
+
+            <div class="form-group col-sm-12 col-md-6">
+              <label for="inputCedula">Nombre:</label>
+              <input  name="nombre" type="text" class="form-control" id="nombre" [(ngModel)]="nombre" [readOnly]="true">
+            </div>
+            <div class="form-group col-sm-12 col-md-6">
+              <label for="inputEmail4">Apellidos:</label>
+              <input name="apellidos" type="text" class="form-control" id="apellidos" [(ngModel)]="apellidos" [readOnly]="true">
+            </div>
+            <div class="form-group col-sm-12 col-md-6">
+              <label for="inputEmail4">Cedula:</label>
+              <input  name="cedula" type="text" class="form-control" id="cedula" [(ngModel)]="cedula" [readOnly]="true">
+            </div>
+            <div class="form-group  col-sm-12 col-md-6">
+              <label for="inputAddress">Correo:</label>
+              <input  name="correo" type="text" class="form-control"id="correo" [(ngModel)]="correo" [readOnly]="true">
+            </div>
+            <div class="form-group  col-sm-12 col-md-6">
+              <label for="inputAddress">Telefono:</label>
+              <input  name="telefono" type="text" class="form-control"id="telefono" [(ngModel)]="telefono" [readOnly]="true">
+            </div>
+          </div>
+            <button type="submit" class="btn btn-success"(click)="AbrirModal()">Actualizar</button>
+            <button type="submit" class="btn btn-success"(click)="AbrirModalClave()">Actualizar Clave</button>
+        </div>
+      </div>
+  </div>
+
+<!-- Modal user -->
+<div class="modal fade" id="modal-user" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Actualizar Datos</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <!-- <div class="form-group col-md-6">
+          <label for="inputNombre">Usuario:</label>
+          <input name="usuario" type="text" class="form-control" id="usuario" [(ngModel)]="usuario" >
+        </div> -->
+
+        <!-- <div class="form-group col-md-6">
+          <label for="inputApellido">Clave:</label>
+          <input  name="password" type="text" class="form-control" id="clave" [(ngModel)]="clave" >
+        </div> -->
+
+        <div class="form-group col-md-6">
+          <label for="inputCedula">Nombre:</label>
+          <input  name="nombre" type="text" class="form-control" id="nombre" [(ngModel)]="nombre" >
+        </div>
+
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Apellidos:</label>
+          <input name="apellidos" type="text" class="form-control" id="apellidos" [(ngModel)]="apellidos" >
+        </div>
+
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Cedula:</label>
+          <input  name="cedula" type="text" class="form-control" id="cedula" [(ngModel)]="cedula" [readOnly]="true">
+        </div>
+
+        <div class="form-group col-md-6">
+          <label for="inputAddress">Correo:</label>
+          <input  name="correo" type="text" class="form-control" id="correo"[(ngModel)]="correo" [readOnly]="true">
+        </div>
+
+        <div class="form-group col-md-6">
+          <label for="inputAddress">Telefono:</label>
+          <input  name="telefono" type="text" class="form-control" id="telefono"[(ngModel)]="telefono" >
+        </div>
+        <input type="file" (change)="avatarSeleccionado($event)">
+        <button type="submit" class="btn btn-success"(click)="Upload()" *ngIf="selectFile.name != '' ">Cambiar Avatar</button>
+
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" (click)="Actualizar()">Actualizar Datos</button>
+      </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+  <!-- Modal clave -->
+  <div class="modal fade" id="modal-clave" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cambiar clave</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+  
+          <div class="form-group col-md-6">
+            <label for="inputAddress">Nueva Clave:</label>
+            <input  name="clave" type="password" class="form-control" id="clave"[(ngModel)]="clave1">
+          </div>
+  
+          <div class="form-group col-md-6">
+            <label for="inputAddress">Confirmar Clave:</label>
+            <input  name="clave2" type="password" class="form-control" id="clave2"[(ngModel)]="clave2">
+          </div>
+  
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" (click)="ActualizarClave()">Cambiar clave</button>
+        </div>
+        </div>
+      </div>
+  
+    </div>
+

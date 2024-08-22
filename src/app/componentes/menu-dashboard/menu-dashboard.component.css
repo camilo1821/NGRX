@@ -1,0 +1,96 @@
+  #Mi-Menu {
+    border: solid 0px ;
+    width: 210px;
+    height: 99vh;
+    margin-top: 2px;
+    margin-left: 1px;
+    padding: 2px;
+    border-radius: 20px;
+    background-color: f0f0f0;
+    float: left;
+    background-color: beige;
+  }
+
+
+  div#Datos-Usuario img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: calc(50% - 75px);
+    margin-top: 12px;
+    margin-bottom: 10px;
+  }
+
+  .lblnombre {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+  }
+  
+  .lblrol {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+  }
+  .itemmenu {
+    margin-bottom: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    padding: 1px;
+    margin-left: -2px;
+    transition: 0.2s ease-in-out;
+    color: rgb(0, 0, 0);
+  }
+  .itemmenu:hover{
+    margin-left: 10px;
+    color: rgb(251, 251, 251);
+    font-size: 16px;
+    background: rgb(135, 114, 35);
+    border-radius: 4px;
+    width: auto;
+  }
+  .opciones {
+    padding-left: 10px;
+  }
+
+  .opciones:hover {
+    background: rgb(235, 235, 171);
+
+    border-radius: 14px;
+  }
+/* #Mi-Menu[_ngcontent-ng-c2452111239][_ngcontent-ng-c2452111239] {
+    border: solid 2pxpx beige;
+    width: 210px;
+    height: 99vh;
+    margin-top: 2px;
+    margin-left: 1px;
+    padding: 2px;
+    background-color: f0f0f0;
+    float: left;
+    background-color: #fff2b9;
+    background: bottom;
+    border: solid 2px #d3ca77;
+    margin-left: 12%;
+    margin-top: 5px;
+} */
+
+  /* div#Mi-Menu[_ngcontent-ng-c2452111239] {
+    border: solid 2pxpx beige;
+    width: 210px;
+    height: 99vh;
+    margin-top: 2px;
+    margin-left: 1px;
+    padding: 2px;
+    background-color: f0f0f0;
+    float: left;
+    background-color: #fff2b9;
+    background: bottom;
+    border: solid 2px #d3ca77;
+} */
+

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.contenedor-acordeon{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contenedor-acordeon h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 9px;
+    background: cornsilk;
+    font-weight: 400;
+    font-style: italic;
+    border: solid 1px oldlace;
+    border-radius: 9px;
+}
+
+.acordeon{
+    background: #fff;
+}
+.acordeon label{
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    background: #bbad60;
+    color: #f3efef;
+    cursor: pointer;
+    margin-bottom: 3px;
+    transition: all 300ms ease;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    border-radius: 5px;
+}
+.acordeon label:hover{
+    background: #f6f3ea;
+    color: black;
+}
+.acordeon .contenido-acordeon{
+    padding: 0px;
+/*     margin: 0px 20px; */
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+.btn-acordeon:checked ~ .contenido-acordeon{
+    max-height: 1000px;
+    padding: 15px 0px;
+}
+.btn-acordeon{
+    display: none;
+}
+
+#tituloTratamientos {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 30px;
+    background: beige;
+    border-radius: 10px;
+}
+
+.card {
+    display: block;
+    margin-left: 25%;
+    max-width: 50%;
+}
+
+.acordeon[_ngcontent-ng-c1336275627] .contenido-acordeon[_ngcontent-ng-c1336275627] {
+    padding-top: 8px;
+    margin: 0px 20px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+
+.btn-acordeon[_ngcontent-ng-c1336275627]:checked ~ .contenido-acordeon[_ngcontent-ng-c1336275627] {
+    max-height: 600px;
+    padding-left: 15%;
+}
+
+.contenedor-acordeon[_ngcontent-ng-c92140963] { /*borde del centro contenido*/
+    width: 79%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #726f1f;
+    border-radius: 17px;
+}
+
+#clicTratamientos {
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: fantasy;
+    color: currentcolor;
+}
+
+#DescripcionInicial {
+    font-size: -webkit-xxx-large;
+    font-family: ui-monospace;
+}
+
+img.card-img-top {
+    width: 50%;
+    display: flex;
+    margin-left: 25%;
+    padding-top: 8px;
+    border-radius: 14px;
+}
+
+.card-body {
+    padding: 8px;
+    font-size: 14px;
+    font-style: oblique;
+    text-align: center;
+    color: currentColor;
+    background: #e7e7e7;
+}
